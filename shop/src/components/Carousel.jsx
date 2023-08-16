@@ -22,6 +22,7 @@ import {
   Flex,
 } from "@chakra-ui/react";
 
+
 // Settings for the slider
 const settings = {
   dots: true,
@@ -32,6 +33,7 @@ const settings = {
   initialSlide: 0,
 };
 
+
 export default function Carousel() {
   // As we have used custom buttons, we need a reference variable to
   // change the state
@@ -41,6 +43,7 @@ export default function Carousel() {
     setItem("singleproduct",item)
   navigate("/jewelery/singleproduct")
 }
+
 
   // These are the breakpoints which changes the position of the
   // buttons as the screen size changes
