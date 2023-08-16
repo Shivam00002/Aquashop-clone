@@ -34,6 +34,7 @@ const Footer = () => {
               Link To This Page & Tell All Your Friends!
             </Text>
             <Button borderRadius={"25"} ml={2}>
+
               Copy Link
             </Button>
           </Box>
@@ -53,6 +54,7 @@ const Footer = () => {
             {" "}
             <Text color={"white"}>About Us | </Text>
             <Text color={"white"}> Help | </Text>
+
             <Text color={"white"}> Accessibility Statement | </Text>
             <Text color={"white"}> Contact Us | </Text>
             <Text color={"white"}> Partner with Us | </Text>
