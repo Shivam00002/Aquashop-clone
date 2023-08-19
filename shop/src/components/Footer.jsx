@@ -23,11 +23,14 @@ const Footer = () => {
             >
               Get Email Deals & Earn Cashback
             </Text>{" "}
-            <Input placeholder="Enter email address..." width={"50%"} ml={2} />
+            <Input placeholder="Enter
+ email address..." width={"50%"} ml={2} />
             <Button>Signup</Button>
           </Box>
+
           <Box display={"flex"}>
             <Text
+
               color={"white"}
               fontSize={{ xl: "20", lg: "15", sm: "12", base: "8" }}
             >
@@ -48,6 +51,7 @@ const Footer = () => {
           borderBottom="1px solid white"
           p={1}
         >
+
           <Box
             display={"flex"}
             w={"80%"}
@@ -61,6 +65,7 @@ const Footer = () => {
             <Text color={"white"}> Contact Us | </Text>
             <Text color={"white"}> Partner with Us | </Text>
             <Text color={"white"}> Services Us | </Text>
+
             <Text color={"white"}> Country Region ^ | </Text>
             <Text color={"white"}> Connect ^ | </Text>
             <Text color={"white"}> Own your SHOP Site | </Text>
