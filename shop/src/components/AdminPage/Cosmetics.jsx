@@ -27,6 +27,7 @@ const Clothes = () => {
 
 
 
+
    const [filter,setFilter]=useState("Mens")
    const [Creds,setCreds]=useState({})
   
@@ -38,6 +39,7 @@ const Clothes = () => {
 
 
       //  let men = cloth.filter((item)=>item.category==filter)
+
 
 
       //  useEffect(()=>{
