@@ -107,6 +107,7 @@ const abcd=()=>{
   useEffect(() => {
     console.log("userdata", userData);
     SetData(userData);
+
   }, [userData]);
 
   const user=getItem("Login")
@@ -116,16 +117,19 @@ const abcd=()=>{
     <div style={{marginBottom:"10px"}}>
       <Box w={"100%"} position={"fixed"} zIndex={999} top={0}>
         <Flex
+
           bg={useColorModeValue("white", "gray.800")}
           color={useColorModeValue("gray.600", "white")}
           minH={"60px"}
           w={"100%"}
           py={{ base: 2 }}
+
           px={{ base: 4 }}
           borderBottom={1}
           borderStyle={"solid"}
           borderColor={useColorModeValue("gray.200", "gray.900")}
           align={"center"}
+
           bgColor="#f0f1f7 "
         >
           <Flex
@@ -136,6 +140,7 @@ const abcd=()=>{
           >
             <IconButton
               onClick={onToggle}
+
               icon={
                 isOpen ? (
                   <CloseIcon w={3} h={3} />
