@@ -31,6 +31,7 @@ const Footer = () => {
               color={"white"}
               fontSize={{ xl: "20", lg: "15", sm: "12", base: "8" }}
             >
+
               Link To This Page & Tell All Your Friends!
             </Text>
             <Button borderRadius={"25"} ml={2}>
@@ -40,6 +41,7 @@ const Footer = () => {
           </Box>
         </Flex>
       </Box>
+
       <Box justifyContent={"space-between"} backgroundColor={"#545871"}>
         <Flex
           justifyContent={"space-between"}
