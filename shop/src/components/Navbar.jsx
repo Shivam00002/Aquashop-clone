@@ -85,13 +85,16 @@ const Navbar = () => {
        
       isClosable: true,
     });
+
     GoTo("/signin");
   };
   const { isOpen, onOpen, onClose } = useDisclosure();
   const firstField = React.useRef();
   const { onToggle } = useDisclosure();
+
   const [Data, SetData] = useState({});
   const { userData } = useSelector((store) => store.auth);
+
 
 const abcd=()=>{
  
@@ -105,6 +108,7 @@ const abcd=()=>{
     console.log("userdata", userData);
     SetData(userData);
   }, [userData]);
+
   const user=getItem("Login")
   console.log(user)
 
