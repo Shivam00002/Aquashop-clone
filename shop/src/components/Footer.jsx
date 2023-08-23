@@ -9,6 +9,7 @@ const Footer = () => {
   return (
 
     <Box borderTop="1px solid grey" width={"100%"}>
+
       <Box justifyContent={"space-between"} backgroundColor={"#545871"}>
         <Flex
           justifyContent={"space-between"}
