@@ -19,6 +19,7 @@ import {
   Link,
   Image,
   Stack,
+
   Flex,
 } from "@chakra-ui/react";
 
@@ -41,6 +42,7 @@ const settings = {
 
 export default function Carousel() {
   // As we have used custom buttons, we need a reference variable to
+
   // change the state
   const [slider, setSlider] = React.useState(1);
   const navigate=useNavigate();
