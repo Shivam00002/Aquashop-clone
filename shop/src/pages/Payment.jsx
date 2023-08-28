@@ -21,12 +21,15 @@ const handleClose=()=>{
   
     const isError = input === '';
     return (
+
     <div style={{marginTop:"150px"}}>
         <Center><Heading mt={3} mb={3} size="md">Payment Options</Heading></Center>
+
         <Tabs ml={10} align='center' variant='enclosed'>
   <TabList w="90%" border={"1px solid red"}>
     <Tab>
         <Image mr={3} w="20%" src="https://img1a.flixcart.com/linchpin-web/batman-returns/logos/upiLogo6.gif"></Image>
+
         UPI</Tab>
     <Tab>
     <Image mr={3} w="20%" src="https://img1a.flixcart.com/www/linchpin/batman-returns/logos/Payments%20Logo%20animation_1.gif"></Image>
