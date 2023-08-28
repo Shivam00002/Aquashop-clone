@@ -4,6 +4,7 @@ const ShopBuddy = () => {
   return (
     <div>
       <h1>Shop Buddy</h1>
+
     </div>
   );
 };
