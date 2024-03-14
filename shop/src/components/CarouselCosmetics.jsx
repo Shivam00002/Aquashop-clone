@@ -33,7 +33,6 @@ const settings = {
   initialSlide: 0,
 };
 
-
 export default function CarouselCosmetics() {
   // As we have used custom buttons, we need a reference variable to
   // change the state
