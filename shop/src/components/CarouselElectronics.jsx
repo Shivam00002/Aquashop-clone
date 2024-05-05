@@ -49,6 +49,7 @@ export default function CarouselElectronics() {
   const top = useBreakpointValue({ base: "90%", md: "50%" });
 
 
+
   const side = useBreakpointValue({ base: "30%", md: "10px" });
 
   // These are the images used in the slide
