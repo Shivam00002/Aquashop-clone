@@ -34,7 +34,6 @@ const settings = {
 };
 
 
-
 export default function CarouselElectronics() {
   // As we have used custom buttons, we need a reference variable to
   // change the state
