@@ -38,6 +38,7 @@ const settings = {
 };
 
 
+
 export default function Carousel() {
   // As we have used custom buttons, we need a reference variable to
 
